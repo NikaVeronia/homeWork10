@@ -1,0 +1,94 @@
+
+form{
+    margin-top:15%;
+    margin-left:25%;
+    width: 550px; 
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px 70px 25px;
+    border: 3px solid rgb(83, 81, 81);
+    gap: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px; 
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(69, 67, 67, 0.6);
+    border-radius: 10px;
+    
+  }
+  .form-label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form-input{
+  width: 99%;
+  align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    gap: 50px;
+  }
+  .btn-back{
+    width: 15%;
+  }
+  .submit-btn{
+    width: 99%;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: rgb(250, 249, 248);
+    color: #080000;
+    transition: .2s;
+  }
+  .paragraf{
+    font: 2em sans-serif;
+    font-size: 14px;
+    color: #2a2a2ae6;
+  }
+  .form-input-checkbox{
+    position: relative;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  }
+  .str-check{
+   font: 1em sans-serif;
+    color: #2a2a2a;
+  }
+  .submit-btn:hover{
+    background: rgb(10, 5, 0);
+    color: #dedada;
+  }
+  
+  .logo-form {
+   position:absolute;
+   display: flex;
+   top: 5%;
+   left: 3%;
+    font-family: Jost;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 23.12px;
+    text-align: left;
+  }
+  .block-1{
+    position: absolute;
+  width: 50%;
+  height: 100%;
+  }
+  .block-2{
+    position: absolute;
+    left:50% ;
+    width: 50%;
+    height: 100%;
+  }
